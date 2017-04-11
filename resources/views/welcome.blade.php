@@ -129,7 +129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="four columns value-prop">
 <img class="u-max-full-width" src="brandon/images/delivery.png">
 <h5>TEAM</h5> 
-<p>I have been at the SEC long enough to see that our team has done great work. Im looking forward to contributing to the project.</p></div>
+<p>I'm eager to collaborate with folks who want to use programming and technology to solve problems.</p></div>
      
      
      </div>
@@ -140,7 +140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   –––––––––––––––––––––––––––––––––––––––––––––––––– --> 
   
   
-  <div class="six columns" style="margin-top: 2%">
+  <div class="col-sm-4 col-sm-offset-4" style="margin-top: 2%">
         <h5>I encourage you to share any thoughts, proposals for collaboration, or funny instagram memes.</h5>
        </div>
   <br>
@@ -158,55 +158,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <p>Message</p><textarea name="message"></textarea><br>
    <button type="submit">Submit</button>
 
-
-<script type="text/javascript">
-      var onloadCallback = function() {
-        grecaptcha.render('html_element', {
-          'sitekey' : '6LfrLhATAAAAAAOktQMbV_nbgv1n09JY-3oR3LAd'
-        });
-      };
-    </script>
 <input type="reset" value="Clear">
 
-
-
- 		<!-- Recaptcha goes below here
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   
-  <div class="g-recaptcha" data-sitekey="6LfrLhATAAAAAAOktQMbV_nbgv1n09JY-3oR3LAd"></div>
-
-</form>
-
-    </div>
-</div>
-</div>
-</div>
-<!-- Recaptcha Script goes here
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  
-  
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#defaultForm').formValidation(...);
-
-    Recaptcha.create('PUBLIC_KEY', 'recaptcha', {
-        theme: 'white',
-        // captchaLoaded function will be called after the captcha image is loaded
-        callback: captchaLoaded
-    });
-
-    function captchaLoaded() {
-        // Add new field after loading captcha
-        $('#defaultForm').formValidation('addField', 'recaptcha_response_field', {
-            validators: {
-                notEmpty: {
-                    message: 'The captcha is required and can\'t be empty'
-                }
-            }
-        });
-    };
-});
-</script>
 
 <!-- Owl Carousel Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -244,5 +197,4 @@ $(document).ready(function() {
 
 
 </div>
-</div></div>
 @stop
