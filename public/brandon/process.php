@@ -18,8 +18,8 @@ if (empty($_POST["message"])) {
 } else {
     $message = $_POST["message"];
 }
-$EmailTo = "reynaalevine@gmail.com, brandonfjonesdc@gmail.com";
-$Subject = "Motek Inquiry";
+$EmailTo = "brandonfjonesdc@gmail.com";
+$Subject = "Web Site Inquiry";
 // prepare email body text
 $Body = "";
 $Body .= "Name: ";

@@ -151,14 +151,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="well" style="margin-top: 10%;">
     <h3>Secure Communiqué</h3>
     
-    
-    
-  <div class="container" id="contact">
-  <form action="brandon/mail.php" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="submit">
+    <div class="container" id="contact">  
+     <form action="//flipmail.co/api/vn50uHWppx239hDbEaNS" method="post">
+   <p>Name</p><input type="text" name="name">
+   <p>Email</p><input type="email" name="email">
+   <p>Message</p><textarea name="message"></textarea><br>
+   <button type="submit">Submit</button>
+
 
 <script type="text/javascript">
       var onloadCallback = function() {
