@@ -102,7 +102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
         
 <div class="six columns value-prop">
-<img style="margin-left: 10%;" class="u-max-full-width" src="brandon/images/anu_pic.png">
+<img style="margin-left: 10%;"  height="200" width="180" src="brandon/images/anu_pic.png">
 <h5>Anu Maori Virgil Jones</h5>
 <p>The sole heir to the Jones estate, my wonderful nephew Anu. He is four years old and loves trains.</p></div>
 
