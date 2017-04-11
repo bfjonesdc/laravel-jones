@@ -1,2 +1,6 @@
 # laravel-jones
-Laravel Portfolio Site
+Brandon's First Laravel Project
+
+Migrated bfjonesdesign.com to Laravel framework.
+
+70% complete
